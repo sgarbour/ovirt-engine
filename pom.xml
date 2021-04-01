@@ -108,6 +108,9 @@
 
     <!-- Plugins configurations-->
     <ovirt.surefire.reportsDirectory>${project.build.directory}/surefire-reports</ovirt.surefire.reportsDirectory>
+    <sonar.projectKey>sgarbour_ovirt-engine</sonar.projectKey>
+    <sonar.organization>sgarboursonarcloud</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
   <dependencyManagement>
     <dependencies>
